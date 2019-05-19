@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context=".TvAction">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="#2196F3"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:resize_mode="fixed_width"/>
+
+    <ImageButton
+        android:id="@+id/bt1"
+        android:layout_width="206dp"
+        android:layout_height="97dp"
+        android:layout_marginLeft="90dp"
+        android:src="@drawable/h"
+
+        />
+</LinearLayout>
